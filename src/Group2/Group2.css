@@ -1,0 +1,93 @@
+.group2 {
+    display: flex;
+    flex-direction: column;
+    width: 25%;
+    height: 90vh;
+    padding-left: 20px;
+    border-right: 2px solid var(--clr-neutral-150);
+    padding-right: 5px;
+    overflow-y: scroll;
+    scroll-behavior: smooth;
+
+}
+
+.top {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.top .heading {
+    font-size: 1.5rem;
+    color: #000;
+    font-weight: 600;
+}
+
+.top .searchCont {
+    background-color: var(--clr-neutral-100);
+    width: 80%;
+    border-radius: 8px;
+    padding: 7px;
+    gap: 5px;
+}
+
+.top .searchCont input {
+    background-color: var(--clr-neutral-100);
+    border: 0;
+    outline: 0;
+}
+
+.top .sort {
+    display: flex;
+    flex-direction: row;
+    color: var(--clr-accent-300);
+    gap: 8px;
+}
+
+.top .sorted {
+    display: flex;
+    gap: 8px;
+    font-size: .8rem;
+}
+
+.bottumChatCont {
+    display: flex;
+    flex-direction: row;
+    margin-top: 15px;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+    padding: 6px;
+}
+
+.bottumChatCont:is(:focus,:active, :hover) {
+    background-color: var(--clr-neutral-100);
+}
+.msgInfo {
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.dilveryCont img {
+    margin-left: 28px;
+}
+
+.nameMsgCont .name {
+    font-size: var(--fs-400);
+    color: #000;
+    font-weight: 600;
+}
+
+.nameMsgCont .msg {
+    font-size: .8rem;
+}
+
+@media (max-width: 47em) {
+    .group2 {
+        border: none;
+        width: 100%;
+    }
+}

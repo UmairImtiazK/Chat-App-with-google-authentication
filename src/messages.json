@@ -1,0 +1,19 @@
+{
+    "messages": [
+      {
+        "collection": "messages",
+        "data": {
+          "message": "Hello, World!",
+          "timestamp": "2024-06-08T12:00:00"
+        }
+      },
+      {
+        "collection": "messages",
+        "data": {
+          "message": "This is a test message.",
+          "timestamp": "2024-06-08T12:05:00"
+        }
+      }
+    ]
+  }
+  

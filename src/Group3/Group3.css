@@ -1,0 +1,39 @@
+.group3Parent {
+    display: flex;
+    flex-direction: column;
+    width: 70%;
+    height: 90vh;
+}
+
+.group3 {
+    display: flex;
+    justify-content: space-between;
+    padding:2px  15px 0 15px;
+    border-bottom: 2px solid var(--clr-neutral-150);
+}
+
+.cont1 {
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+
+.float h2 {
+    font-size: var(--fs-500);
+    color: #000;
+    font-weight: 700;
+}
+
+.float .status {
+    color: var( --clr-accent-100);
+}
+
+.cont2 {
+    display: flex;
+}
+
+@media (max-width: 47em) {
+    .group3Parent {
+        width: 100%;
+    }
+}
